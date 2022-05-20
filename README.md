@@ -3,7 +3,7 @@
 - A model is trained using  of the folds as training data;
 - The resulting model is validated on the remaining part of the data (i.e., it is used as a test set to compute a performance measure such as accuracy).
 - The performance measure reported by k-fold cross-validation is then the average of the values computed in the loop. This approach can be computationally expensive, but does not waste too much data (as is the case when fixing an arbitrary validation set), which is a major advantage in problems such as inverse inference where the number of samples is very small.
-<img src="./grid_search_cross_validation.png"/>
+<img src="https://github.com/sharmatriloknath/Cross-Validation-in-Machine-Learning/blob/main/Images/grid_search_cross_validation.png?raw=true"/>
 
 ```python
 # Requirements Needed
